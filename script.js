@@ -82,7 +82,7 @@ function getHumanChoice() {
             let humanSelection = getHumanChoice();
             let computerSelection = getComputerChoice();
             console.log("Outcome: " + playRound(humanSelection, computerSelection));
-            console.log("Round " + roundNumber + " score || Player : " + humanScore + " || Computer: " + computerScore);
+            console.log("Round " + roundNumber + " ||  Total score || Player : " + humanScore + " || Computer: " + computerScore);
         }
         if (humanScore > computerScore) {
             console.log("FINISH! - Human player won the game! Final score for the human player: " + humanScore + " Final score for the computer: " + computerScore);
