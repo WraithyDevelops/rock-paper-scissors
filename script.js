@@ -58,12 +58,15 @@ function getHumanChoice() {
     function playRound(humanResult,computerResult) {
         if (humanResult === "Rock" && computerResult === "Rock" || humanResult === "Paper" && computerResult === "Paper" || humanResult === "Scissors" && computerResult === "Scissors" ) {
             roundResult = "Draw";
+            console.log("The human players choice was: " + humanResult + " | " + "The Computers choice was: " + computerResult);
         } else if (humanResult === "Rock" && computerResult === "Scissors" || humanResult === "Paper" && computerResult === "Rock" || humanResult === "Scissors" && computerResult === "Paper") {
             roundResult = "Human won!";
             humanScore++;
+            console.log("The human players choice was: " + humanResult + " | " + "The Computers choice was: " + computerResult);
         } else {
             roundResult = "Computer won!";
             computerScore++;
+            console.log("The human players choice was: " + humanResult + " | " + "The Computers choice was: " + computerResult);
         }
         return roundResult;
     }   
