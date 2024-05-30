@@ -18,7 +18,7 @@ function getComputerChoice() {
     }     
     return computerResult;
 }
-
+/*
 function getHumanChoice() {
    
         humanChoice = prompt("Rock, Paper or Scissors?").toLowerCase();
@@ -34,7 +34,25 @@ function getHumanChoice() {
             }
             return humanResult;
         }
+   */ 
+        function getHumanChoice() {
    
+            humanChoice = prompt("Rock, Paper or Scissors?");
+        let humanChoiceLC = humanChoice?.toLowerCase();
+            while(humanChoice != null) {
+                if (humanChoiceLC === "rock") {
+                    humanResult = "Rock";
+                } else if (humanChoiceLC === "paper") {
+                    humanResult = "Paper";
+                } else if (humanChoiceLC === "scissors") {
+                    humanResult = "Scissors";
+                } else {
+                    humanResult =  alert("Incorrect choice, please use only one the three choices available!");
+                }
+                return humanResult;
+            }
+            }
+
 
 
     function playRound(humanResult,computerResult) {
