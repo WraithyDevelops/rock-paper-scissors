@@ -19,23 +19,6 @@ function getComputerChoice() {
     }     
     return computerResult;
 }
-/*
-function getHumanChoice() {
-   
-        humanChoice = prompt("Rock, Paper or Scissors?").toLowerCase();
-
-            if (humanChoice === "rock") {
-                humanResult = "Rock";
-            } else if (humanChoice === "paper") {
-                humanResult = "Paper";
-            } else if (humanChoice === "scissors") {
-                humanResult = "Scissors";
-            } else {
-                humanResult =  alert("Incorrect choice, please use only one the three choices available!");
-            }
-            return humanResult;
-        }
-   */ 
         function getHumanChoice() {
    
             humanChoice = prompt("Rock, Paper or Scissors?");
