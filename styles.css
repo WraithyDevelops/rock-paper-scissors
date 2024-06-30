@@ -1,0 +1,68 @@
+.container {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    background-color: rgb(213, 196, 165);
+}
+
+.scores{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: orange;
+    text-align: center;
+}
+
+#welcome {
+    text-align: center;
+    
+}
+
+.buttons {
+    margin: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.outcome {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.exitText{
+    display: flex;
+    justify-content: center;
+}
+
+
+.exitTextExtra{
+    display: flex;
+    justify-content: center;
+}
+
+#submit {
+ display: flex;
+ justify-content: center;
+}
+
+#rock {
+    background-color: bisque;
+}
+
+#paper {
+    background-color: bisque;
+}
+
+#scissors {
+    background-color: bisque;
+}
+
+#playGame {
+    background-color: blueviolet;
+    width: 100px;
+    margin-right:18px;
+    color: antiquewhite;
+}
